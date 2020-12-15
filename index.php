@@ -18,7 +18,7 @@
 <a href="item.php">Item</a>
 <a href="basket.php">Panier</a>
     <br>
-    <a href="/pef/ProjetBoutique/catalogue.php">Catalogue (live)</a>
+ 
 </body>
 </html>
 
