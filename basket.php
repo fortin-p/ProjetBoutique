@@ -46,6 +46,9 @@ require "header.php"
 ?>
 <h1 class="text-center">PANIER</h1>
 <?php
+global $article1;
+global $article2;
+global $article3;
 $liste_products = array($article1, $article2, $article3);
 ?>
 
