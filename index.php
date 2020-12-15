@@ -1,5 +1,4 @@
-<?php
-header('Location: catalogue.php');?>
+
 <?php $user = "Pef"; ?>
 
 <!DOCTYPE html>
@@ -12,7 +11,7 @@ header('Location: catalogue.php');?>
 <body>
 <p>Hello <?php echo $user; ?>!</p>
 <div>
-<img src="https://source.unsplash.com/random/300x300" />
+
 </div>
 
 <a href="catalogue.php">Catalogue</a>
