@@ -48,6 +48,7 @@ require "header.php"
 <h1 class="text-center">PANIER</h1>
 <?php
     @ini_set('display_errors', 'on');
+    echo @init_set;
 global $article1;
 global $article2;
 global $article3;
