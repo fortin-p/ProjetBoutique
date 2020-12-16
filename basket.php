@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-
+@ini_set('display_errors', 'on');
 include "article.php";
 include "functions.php";
 $messageErrorPrice = "";
@@ -36,7 +36,8 @@ if (isset($_POST['articles'])) {
 <head>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basket</title>
 </head>
